@@ -3,7 +3,7 @@
 }
 .section-1 {
     background-color:#1f2937;
-    padding:10px;
+    padding:auto;
     font-family:"Roboto", san-serif;
 
 
@@ -37,8 +37,8 @@ a{
     display:flex;
     gap:20px;
     align-items:center;
-    gap:40px;
     margin-top:40px;
+    padding-bottom:70px;
 
 }
 .circle{
@@ -69,8 +69,92 @@ button{
 
 }
 img{
-    width:250px;
+    width:500px;
     height:auto;
 }
+.section-2{
+    background-color:white;
+    padding:10px;
+    gap:30px;
+    font-family:"Roboto", san-serif;
+    margin-top:20px;
+    border:1px;
+    border-color:#e5e7eb;
+}
+.images-2{
+    display:flex;
+    gap:20px;
+    align-items:center;
+    justify-content:space-evenly;
+}
+h6{
+    font-size:36px;
+    color:#1f2937;
+    font-weight: 900;
+    text-align:center;
+}
+figcaption{
+    font-size:30px;
+    color:#6b7280;
+    text-align:center;
 
+}
+.section-3{
+    background-color:#e5e7eb;
+    padding:20px;
+    font-family:"Roboto", san-serif;
+    FONT-SIZE:36PX;
+    color:#1f2937;
+    font-weight: 300;
+}
+.thor{
+    font-size:25px;
+    font-weight:900;
+    text-align:right;
+    color:#1f2937;
+}
+.section-4{
+    background-color:white;
+    padding:20px;
+    font-family:"Roboto", san-serif;
+}
+.blue-bar{
+    display:flex;
+    gap:20px;
+    align-items:center;
+    justify-content:center;
+    background-color:#3882f6;
+    padding:5px;
+    margin:0 auto;          /*centers the blue bar */
+    width:35cm;
+    border-radius:10px;     /*makes the corners rounded */
+}
+.call{
+    gap:9px;
+}
+.action{
+    font-weight:900;
+    font-size:24px;
+    color:white;
+    border-radius:10px;
+}
+button{
+  display: inline-block;  /* allows setting width and height */
+  white-space: nowrap;    /* prevents text from wrapping to the next line */
+  border: 1px solid rgb(255, 248, 248);
+  line-height:normal;
+  font-size: 16px;
+  width:5cm;      /* makes the button wider */
+}
+.section-5{
+    background-color:#1f2937;
+    padding:20PX;
+    font-family:"Roboto", san-serif;
+    COLOR:WHITE;
+    text-align:center;
+    font-size:15px;
 
+}
+#six{
+    border:1px solid #3882f6;
+}
